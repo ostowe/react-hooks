@@ -1,11 +1,11 @@
-// useState: greeting
-// http://localhost:3000/isolated/exercise/01.js
+// useState: greeting extra credit
+// http://localhost:3000/isolated/exercise/01.extra-1.js
 
 import * as React from 'react'
 
-function Greeting() {
-  // 💣 delete this variable declaration and replace it with a React.useState call
-  const [name, setName] = React.useState('');
+function Greeting(props) {
+  const { initialName } = props;
+  const [name, setName] = React.useState(initialName);
 
   function handleChange(event) {
     setName(event.target.value);
@@ -23,7 +23,7 @@ function Greeting() {
 }
 
 function App() {
-  return <Greeting />
+  return <Greeting initialName="Bob Johnson" />
 }
 
 export default App
