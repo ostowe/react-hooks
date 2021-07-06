@@ -220,3 +220,28 @@ body[class*='6'] > iframe {
   border: none;
   background-color: transparent;
 }
+
+.history {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.history h3 {
+  margin: 0 0 5px 0;
+}
+
+.history__navigation {
+  align-items: center;
+  display: flex;
+}
+
+.history__navigation ul {
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+.history__active {
+  color: red;
+}
