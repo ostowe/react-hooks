@@ -124,16 +124,24 @@ implement things differently than I do in my solution, so don't look to them as
 a complete authority.
 
 ### Exercises
+* Exercises are located in `src/exercise`
+* Exercise answer keys (final code) are located in `src/final`
+* When you first start the app you’ll be taken to a menu of all the exercises.
+  * Click on either the title of the exercise or the “exercise” button to proceed to a specific exercise’s content.
+  * Each exercise has some text to read in addition to a source code file (generally either an HTML or JS file). Exercise readmes will be visible on the left hand side of the app.
+  * Changes made to exercise files (html, js) will be hot-reloaded in the exercise app and rendered on the right side of your screen.
+* Once you’ve completed an exercise, you can run `npm test` at the root of the repo to determine if you’ve done the exercise correctly. see previous section in this doc about tests.
+  * In addition, you can double check your code against the final version in `src/final` and/or by using the “final” button on the exercise menu screen.
+* There’s an area in each exercise’s markdown file for you to take personal notes.
+* Create a separate PR for each exercise you complete (or, if you want to break things down further, for each extra credit as well).
+  * Be sure to note which repo you're merging into as your PR base, as it may be either this repo or Kent C. Dodds' repo by default (you want to merge into your _own_ fork).
 
+Example locations:
 - `src/exercise/00.md`: Background, Exercise Instructions, Extra Credit
 - `src/exercise/00.js`: Exercise with Emoji helpers
 - `src/__tests__/00.js`: Tests
 - `src/final/00.js`: Final version
 - `src/final/00.extra-0.js`: Final version of extra credit
-
-The purpose of the exercise is **not** for you to work through all the material.
-It's intended to get your brain thinking about the right questions to ask me as
-_I_ walk through the material.
 
 ### Helpful Emoji 🐨 💰 💯 📝 🦉 📜 💣 💪 🏁 👨‍💼 🚨
 
